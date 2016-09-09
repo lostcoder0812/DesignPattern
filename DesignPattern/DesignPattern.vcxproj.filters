@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Creational\AbstractFactory\AbstractFactory.cpp">
+      <Filter>Creational\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Adapter\Adapter.cpp">
+      <Filter>Structural\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Bridge\Source.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Bridge\Bridge.cpp">
+      <Filter>Structural\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Creational\Builder\Builder.cpp">
+      <Filter>Creational\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\ChainOfResponsibility\handle.cpp">
+      <Filter>Behavioral\ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\ChainOfResponsibility\main.cpp">
+      <Filter>Behavioral\ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Command\Command.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Command\Source.cpp">
+      <Filter>Behavioral\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Composite\Composite.cpp">
+      <Filter>Structural\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Composite\Source.cpp">
+      <Filter>Structural\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Decorator\Decorator.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Decorator\Source.cpp">
+      <Filter>Structural\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Facade\Facade.cpp">
+      <Filter>Structural\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Facade\Source.cpp">
+      <Filter>Structural\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Flyweight\Flyweight.cpp">
+      <Filter>Structural\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Flyweight\Source.cpp">
+      <Filter>Structural\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Interpreter\context.cpp">
+      <Filter>Behavioral\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Interpreter\interpret.cpp">
+      <Filter>Behavioral\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Interpreter\main.cpp">
+      <Filter>Behavioral\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Iterator\Iterator.cpp">
+      <Filter>Behavioral\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Iterator\Source.cpp">
+      <Filter>Behavioral\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Mediator\Mediator.cpp">
+      <Filter>Behavioral\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Mediator\Source.cpp">
+      <Filter>Behavioral\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Memento\main.cpp">
+      <Filter>Behavioral\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Memento\memento.cpp">
+      <Filter>Behavioral\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Observer\Observer.cpp">
+      <Filter>Behavioral\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Observer\Source.cpp">
+      <Filter>Behavioral\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Creational\Prototype\Prototype.cpp">
+      <Filter>Creational\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Proxy\Proxy.cpp">
+      <Filter>Structural\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Structural\Proxy\Source.cpp">
+      <Filter>Structural\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Creational\Singleton\Singleton.cpp">
+      <Filter>Creational\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\State\Source.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\State\State.cpp">
+      <Filter>Behavioral\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Strategy\Source.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Strategy\Strategy.cpp">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Template\Source.cpp">
+      <Filter>Behavioral\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Template\Template.cpp">
+      <Filter>Behavioral\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Visitor\Source.cpp">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavioral\Visitor\Visitor.cpp">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Creational\SimpleFactory\SimpleFactory.h">
+      <Filter>Creational\SimpleFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Creational">
+      <UniqueIdentifier>{135b3416-7614-43a2-887a-515e8fcf9e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Prototype">
+      <UniqueIdentifier>{99b3e357-e247-42a5-87fa-71ba22f1b86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Builder">
+      <UniqueIdentifier>{1b963b1c-ae25-4e23-804c-0d281861158e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\AbstractFactory">
+      <UniqueIdentifier>{862615ff-c17f-4cea-940a-3a1ca1a080f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\SimpleFactory">
+      <UniqueIdentifier>{de9e21c2-4e2d-471a-8704-952b07eb5155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creational\Singleton">
+      <UniqueIdentifier>{17957b16-924e-4de3-a85e-bf3661d4f013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral">
+      <UniqueIdentifier>{fdfff313-45df-46fc-80ac-eb59865badb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural">
+      <UniqueIdentifier>{cc229949-e969-45f9-9a11-c7eea9abe0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Bridge">
+      <UniqueIdentifier>{97eea623-ca98-4a49-af55-0b96706f0f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Adapter">
+      <UniqueIdentifier>{6eb256cb-b486-473e-b7c1-ce21ea6b1f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Decorator">
+      <UniqueIdentifier>{e9f2bffe-dd6b-4422-9ec9-6818a49b293a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Composite">
+      <UniqueIdentifier>{87e843a1-793c-42de-a869-017d881635a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Facade">
+      <UniqueIdentifier>{3671a1ae-8aec-4249-bb1a-6e76f091ce42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Flyweight">
+      <UniqueIdentifier>{6f76e81b-b0b5-4238-ac73-c9684fc52751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structural\Proxy">
+      <UniqueIdentifier>{4bd8339c-fb70-4c23-8104-ec3aea34b027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\memento">
+      <UniqueIdentifier>{5f2b995b-1505-4f22-beef-4b9a4a42bc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Mediator">
+      <UniqueIdentifier>{3350293d-ac73-45ce-a380-d93a31c8361b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Iterator">
+      <UniqueIdentifier>{c38ad50c-5094-4303-b5bb-341943769a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Interpreter">
+      <UniqueIdentifier>{816fe46f-29b7-4256-8613-bca9fb747e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Command">
+      <UniqueIdentifier>{075b154d-e5df-4181-a60c-2385551cdfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\ChainOfResponsibility">
+      <UniqueIdentifier>{a4e87851-e0c1-4c67-a351-144fe6566b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Observer">
+      <UniqueIdentifier>{c04b188c-716f-4b47-a9a8-63dc649adb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\State">
+      <UniqueIdentifier>{19036687-0bda-4bf3-b17d-a99362e1031b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Strategy">
+      <UniqueIdentifier>{12aa1b71-f86d-4ac2-a542-757cc4c8903a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Template">
+      <UniqueIdentifier>{50547c1c-74cc-4e32-8741-63a21838a54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavioral\Visitor">
+      <UniqueIdentifier>{a8b26a9e-4b10-49a9-b899-53da5fafc9e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Creational\AbstractFactory\AbstractFactory.h">
+      <Filter>Creational\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Adapter\Adapter.h">
+      <Filter>Structural\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Bridge\Bridge.h">
+      <Filter>Structural\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Creational\Builder\Builder.h">
+      <Filter>Creational\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Composite\Composite.h">
+      <Filter>Structural\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Decorator\Decorator.h">
+      <Filter>Structural\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Facade\Facade.h">
+      <Filter>Structural\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Flyweight\Flyweight.h">
+      <Filter>Structural\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Interpreter\context.h">
+      <Filter>Behavioral\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Interpreter\interpret.h">
+      <Filter>Behavioral\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Iterator\Iterator.h">
+      <Filter>Behavioral\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Mediator\Mediator.h">
+      <Filter>Behavioral\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Memento\memento.h">
+      <Filter>Behavioral\memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Observer\Observer.h">
+      <Filter>Behavioral\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Creational\Prototype\Prototype.h">
+      <Filter>Creational\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Proxy\Proxy.h">
+      <Filter>Structural\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Creational\Singleton\Singleton.h">
+      <Filter>Creational\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\State\State.h">
+      <Filter>Behavioral\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Strategy\Strategy.h">
+      <Filter>Behavioral\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Template\Template.h">
+      <Filter>Behavioral\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavioral\Visitor\Visitor.h">
+      <Filter>Behavioral\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\ChainOfResponsibility\handle.h">
+      <Filter>Behavioral\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="Structural\Command\Command.h">
+      <Filter>Behavioral\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

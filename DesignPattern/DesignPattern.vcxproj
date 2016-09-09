@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6E729659-5E90-489F-B742-0E1A910C4CAF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DesignPattern</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Creational\AbstractFactory\AbstractFactory.cpp" />
+    <ClCompile Include="Creational\Builder\Builder.cpp" />
+    <ClCompile Include="Creational\Prototype\Prototype.cpp" />
+    <ClCompile Include="Creational\SimpleFactory\SimpleFactory.h" />
+    <ClCompile Include="Creational\Singleton\Singleton.cpp" />
+    <ClCompile Include="Behavioral\ChainOfResponsibility\handle.cpp" />
+    <ClCompile Include="Behavioral\ChainOfResponsibility\main.cpp" />
+    <ClCompile Include="Behavioral\Command\Command.cpp" />
+    <ClCompile Include="Behavioral\Command\Source.cpp" />
+    <ClCompile Include="Behavioral\Interpreter\context.cpp" />
+    <ClCompile Include="Behavioral\Interpreter\interpret.cpp" />
+    <ClCompile Include="Behavioral\Interpreter\main.cpp" />
+    <ClCompile Include="Behavioral\Iterator\Iterator.cpp" />
+    <ClCompile Include="Behavioral\Iterator\Source.cpp" />
+    <ClCompile Include="Behavioral\Mediator\Mediator.cpp" />
+    <ClCompile Include="Behavioral\Mediator\Source.cpp" />
+    <ClCompile Include="Behavioral\Memento\main.cpp" />
+    <ClCompile Include="Behavioral\Memento\memento.cpp" />
+    <ClCompile Include="Behavioral\Observer\Observer.cpp" />
+    <ClCompile Include="Behavioral\Observer\Source.cpp" />
+    <ClCompile Include="Behavioral\State\Source.cpp" />
+    <ClCompile Include="Behavioral\State\State.cpp" />
+    <ClCompile Include="Behavioral\Strategy\Source.cpp" />
+    <ClCompile Include="Behavioral\Strategy\Strategy.cpp" />
+    <ClCompile Include="Behavioral\Template\Source.cpp" />
+    <ClCompile Include="Behavioral\Template\Template.cpp" />
+    <ClCompile Include="Behavioral\Visitor\Source.cpp" />
+    <ClCompile Include="Behavioral\Visitor\Visitor.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Structural\Adapter\Adapter.cpp" />
+    <ClCompile Include="Structural\Bridge\Bridge.cpp" />
+    <ClCompile Include="Structural\Bridge\Source.cpp" />
+    <ClCompile Include="Structural\Composite\Composite.cpp" />
+    <ClCompile Include="Structural\Composite\Source.cpp" />
+    <ClCompile Include="Structural\Decorator\Decorator.cpp" />
+    <ClCompile Include="Structural\Decorator\Source.cpp" />
+    <ClCompile Include="Structural\Facade\Facade.cpp" />
+    <ClCompile Include="Structural\Facade\Source.cpp" />
+    <ClCompile Include="Structural\Flyweight\Flyweight.cpp" />
+    <ClCompile Include="Structural\Flyweight\Source.cpp" />
+    <ClCompile Include="Structural\Proxy\Proxy.cpp" />
+    <ClCompile Include="Structural\Proxy\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Creational\AbstractFactory\AbstractFactory.h" />
+    <ClInclude Include="Creational\Builder\Builder.h" />
+    <ClInclude Include="Creational\Prototype\Prototype.h" />
+    <ClInclude Include="Creational\Singleton\Singleton.h" />
+    <ClInclude Include="Behavioral\Interpreter\context.h" />
+    <ClInclude Include="Behavioral\Interpreter\interpret.h" />
+    <ClInclude Include="Behavioral\Iterator\Iterator.h" />
+    <ClInclude Include="Behavioral\Mediator\Mediator.h" />
+    <ClInclude Include="Behavioral\Memento\memento.h" />
+    <ClInclude Include="Behavioral\Observer\Observer.h" />
+    <ClInclude Include="Behavioral\State\State.h" />
+    <ClInclude Include="Behavioral\Strategy\Strategy.h" />
+    <ClInclude Include="Behavioral\Template\Template.h" />
+    <ClInclude Include="Behavioral\Visitor\Visitor.h" />
+    <ClInclude Include="Structural\Adapter\Adapter.h" />
+    <ClInclude Include="Structural\Bridge\Bridge.h" />
+    <ClInclude Include="Structural\Composite\Composite.h" />
+    <ClInclude Include="Structural\Decorator\Decorator.h" />
+    <ClInclude Include="Structural\Facade\Facade.h" />
+    <ClInclude Include="Structural\Flyweight\Flyweight.h" />
+    <ClInclude Include="Structural\Proxy\Proxy.h" />
+    <ClInclude Include="Structural\ChainOfResponsibility\handle.h" />
+    <ClInclude Include="Structural\Command\Command.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
